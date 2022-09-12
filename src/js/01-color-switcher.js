@@ -24,6 +24,6 @@ function startChangeColor() {
 }
 
 function stopChangeColor() {
-  clearTimeout(setID);
+  clearInterval(setID);
   refs.start.disabled = false;
 }
