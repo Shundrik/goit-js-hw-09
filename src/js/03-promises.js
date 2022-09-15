@@ -26,6 +26,7 @@ dataForm[e.target.name] = e.target.value;
 
 
 function createPromise(position, delay) {
+  e.preventDefault();
    console.log(`start ${position} and ${delay}`);
   const shouldResolve = Math.random() > 0.3;
   new Promise((resolve, reject) => {

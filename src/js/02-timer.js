@@ -33,7 +33,7 @@ const options = {
   onClose(selectedDates) {
     const date1 = selectedDates[0];
     const date2 = Date.now();
-    deltaDate = date1 - date2;
+    // let deltaDate = date1 - date2;
 
     if (selectedDates[0] < date2) {
       // window.alert("Please choose a date in the future");
