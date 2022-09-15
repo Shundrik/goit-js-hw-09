@@ -42,7 +42,7 @@ const options = {
     
     refs.start.disabled = false;
   
-
+ 
     refs.start.addEventListener('click', start);
 
     function start() {
